@@ -1,3 +1,38 @@
 .hidden {
     display: none;
 }
+
+.fruits {
+   
+    margin: 40px;
+}
+
+.strawberry {
+    width: 300px;
+}
+
+.apple {
+    width: 220px;
+}
+
+.watermelon {
+    width: 260px;
+}
+
+.kiwi {
+    width: 260px;
+}
+
+.orange {
+    width: 260px;
+}
+
+.blueberries {
+    width: 260px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

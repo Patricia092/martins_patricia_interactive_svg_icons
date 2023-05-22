@@ -39,6 +39,21 @@
       .cls-9 {
         fill: #eb2d34;
       }
+
+        /* Custom CSS */
+
+      #color:hover {
+        fill: #eb2d34;
+      }
+
+      #apple:hover #seeds, #apple_shadow {
+        display: none;
+      }
+
+      #apple:hover #middle{
+        display: none;
+      }
+
     </style>
   </defs>
   <g class="cls-1">

@@ -25,6 +25,9 @@
       .cls-6 {
         fill: #eb2d34;
       }
+
+      /* Custom CSS */
+
     </style>
   </defs>
   <path id="shadows" class="cls-3" d="m1.94,2.06c0,.06-.32.1-.71.1s-.71-.05-.71-.11.32-.1.71-.1.71.05.71.11Z"/>
