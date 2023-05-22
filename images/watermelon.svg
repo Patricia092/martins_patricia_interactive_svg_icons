@@ -21,6 +21,14 @@
       .cls-5 {
         fill: #ffe992;
       }
+
+      #watermelon:hover {
+        transform: rotate(95deg);
+      }
+
+      #watermelon:hover #shadow{
+        display: none;
+      }
     </style>
   </defs>
   <path id="shadow" class="cls-3" d="m4.18,5.2c0,.13-.7.23-1.57.23s-1.57-.1-1.57-.23.7-.23,1.57-.23,1.57.1,1.57.23Z"/>
