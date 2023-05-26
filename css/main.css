@@ -1,38 +1,84 @@
-.hidden {
-    display: none;
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+    2. Zima summer flavors text
+
+ */
+
+
+/* 1. ---General Styles--- */
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
-.fruits {
-   
-    margin: 40px;
+img,
+embed,
+object,
+video,
+picture {
+    max-width: 100%;
 }
 
-.strawberry {
-    width: 300px;
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
-.apple {
-    width: 220px;
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
 }
 
-.watermelon {
-    width: 260px;
+input,
+textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
 }
 
-.kiwi {
-    width: 260px;
+/* Class Styles */
+
+.spacer {
+    margin-top: 30px;
 }
 
-.orange {
-    width: 260px;
+.txt-spacer {
+    margin-top: 30px;
 }
 
-.blueberries {
-    width: 260px;
+
+/* ---End of General Styles--- */
+
+/* 2. ---Zima summer flavors text--- */
+
+/* Id Styles */
+
+#zima-title {
+   text-align: center;
+   font-weight: lighter;
+   color: #323050;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/* Class Styles */
+
+.sub-title {
+    text-align: center;
+    font-weight: 200;
+    color: #16C0AE;
 }
+
+/* ---End of Zima summer flavors text--- */
+
+
+
+
+
