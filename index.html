@@ -1,40 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/main.css" rel="stylesheet">   
-    <title>Interactive SVG Icons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Zima Summer Flavors</title>
 </head>
+
 <body>
-    <h1>Interactive SVG Icons</h1>
-    <section class="container">
-        <div class="fruits strawberry">
-            <object data="images/strawberries.svg" type="image/svg+xml">
+    <h1 id="zima-title" class="spacer">ZIMA</h1>
+    <section class="grid-con">
+        <h2 class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 txt-spacer sub-title">The Summer Flavors
+        </h2>
+        <p class="col-span-4 m-col-span-12 l-col-span-12 xl-col-span-12 zima-text text-box">
+            Zima, a clear malt beverage, has been popular for many years. With its unique and refreshing taste, Zima has
+            gained a loyal following among consumers. In addition to the previous flavors, Zima now comes in six
+            additional fruit flavors: strawberry, apple, watermelon, kiwi, orange, and blueberry.
+            Each flavor has a unique taste that is both refreshing and light, making it an ideal beverage for hot summer
+            days.
+            <br>
+            The strawberry flavor has a sweet and fruity taste that is reminiscent of a summer picnic. The apple flavor
+            provides a crisp and refreshing taste that is perfect for a hot day. The watermelon flavor is juicy and
+            sweet, making it a perfect choice for a summer barbecue. The kiwi flavor has a tangy and tropical taste that
+            is perfect for a day at the beach. The orange flavor is sweet and citrusy, providing a refreshing flavor.
+            Finally, the blueberry flavor provides a sweet and tart taste that is perfect for a summer evening.
+            <br>
+            The Zima summer flavors provide a refreshing and delicious alternative to traditional summer drinks, and
+            their unique taste profiles make them stand out from other malt beverages. Whether you are a fan of the
+            original Zima or are trying it for the first time, the summer flavors are definitely worth a try. So, go
+            ahead and grab a six-pack of Zima summer flavors and enjoy a refreshing and tasty beverage this summer!
+        </p>
+    </section>
+    <section class="grid-con">
+        <h2 class="hidden">Fruits</h2>
+        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Strawberry</h3>
+            <object id="strawberries" data="images/strawberries.svg" type="image/svg+xml">
             </object>
         </div>
-        <div class="fruits apple">
+        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Apple</h3>
             <object data="images/apple.svg" type="image/svg+xml">
             </object>
         </div>
-        <div class="fruits watermelon">
+        <div class="col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Watermelon</h3>
             <object data="images/watermelon.svg" type="image/svg+xml">
             </object>
         </div>
-    </section>
-    <section class="container">
-        <div class="fruits kiwi">
+        <div class="fruits kiwi col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Kiwi</h3>
             <object data="images/kiwi.svg" type="image/svg+xml">
             </object>
         </div>
-        <div class="fruits orange">
+        <div class="fruits col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Orange</h3>
             <object data="images/orange.svg" type="image/svg+xml">
             </object>
         </div>
-        <div class="fruits blueberries">
+        <div class="fruits col-span-2 m-col-span-4 l-col-span-4 xl-col-span-4 fruits-box">
+            <h3 class="fruits-title">Blueberry</h3>
             <object data="images/blueberries.svg" type="image/svg+xml">
             </object>
         </div>
     </section>
+    <script src="js/main.js"></script> 
 </body>
+
 </html>
