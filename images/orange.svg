@@ -31,13 +31,13 @@
     </style>
 
     <script>
-      const badge = document.querySelector("#orange");
+      const orange = document.querySelector("#orange");
 
       function logId(){
       console.log(this.id)
       }
 
-      badge.addEventListener("click", logId)
+      orange.addEventListener("click", logId)
     </script>
   </defs>
   <path id="shadow" class="cls-2"

@@ -57,13 +57,13 @@
     </style>
 
     <script>
-      const badge = document.querySelector("#apple");
+      const apple = document.querySelector("#apple");
 
       function logId(){
       console.log(this.id)
       }
 
-      badge.addEventListener("click", logId)
+      apple.addEventListener("click", logId)
     </script>
   </defs>
   <g class="cls-1">

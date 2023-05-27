@@ -34,13 +34,13 @@
     </style>
 
     <script>
-      const badge = document.querySelector("#watermelon");
+      const watermelon = document.querySelector("#watermelon");
 
       function logId(){
       console.log(this.id)
       }
 
-      badge.addEventListener("click", logId)
+      watermelon.addEventListener("click", logId)
     </script>
   </defs>
   <path id="shadow" class="cls-3"

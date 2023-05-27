@@ -64,13 +64,13 @@
     </style>
 
     <script>
-      const badge = document.querySelector("#blueberries");
+      const blueberries = document.querySelector("#blueberries");
 
       function logId(){
       console.log(this.id)
       }
 
-      badge.addEventListener("click", logId)
+      blueberries.addEventListener("click", logId)
     </script>
   </defs>
   <g class="cls-2">
