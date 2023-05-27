@@ -1,5 +1,5 @@
 <h1 align ="center">ZIMA</h1>
-</br>
+
 <h2 align ="center">The Summer Flavors</h2>
 
 #### By Patricia Martins
