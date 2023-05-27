@@ -51,13 +51,13 @@
     </style>
 
     <script>
-      const badge = document.querySelector("#strawberries");
+      const strawberries = document.querySelector("#strawberries");
 
       function logId(){
       console.log(this.id)
       }
 
-      badge.addEventListener("click", logId)
+      strawberries.addEventListener("click", logId)
     </script>
   </defs>
   <path id="shadows" class="cls-3"
